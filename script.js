@@ -19,10 +19,21 @@ let running = false;
 
 function initializeGame() {
   cells.forEach((cell) => cell.addEventListener("click", cellClicked));
+  restartBtn.addEventListener("click", restartGame);
+  statusText.textContent = `${currentPlayer}'s turn`;
 }
 initializeGame();
 
-function cellClicked() {}
+function cellClicked() {
+  const cellIndex = this.getAttribute("cellIndex");
+
+  if (options[cellIndex] != "" || !running) {
+    return;
+  }
+
+  updateCell(this, cellIndex);
+  checkWinner();
+}
 
 function updateCell(cell, index) {}
 
