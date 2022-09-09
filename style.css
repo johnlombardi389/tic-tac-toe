@@ -7,7 +7,7 @@
   --fs-body: 1rem;
   --fs-subheading: 1.2rem;
   --fs-heading: 2rem;
-  --fs-gamepiece: 3rem;
+  --fs-gamepiece: 3.5rem;
 
   --fw-body: 300;
   --fw-subheading: 500;
@@ -28,7 +28,7 @@
   border: 2px solid black;
   box-shadow: 0 0 0 2px;
   line-height: 75px;
-  font-family: var(--ff-body);
+  font-family: var(--ff-gamepiece);
   font-size: var(--fs-gamepiece);
 }
 
