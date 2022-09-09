@@ -41,10 +41,6 @@ body {
   text-align: center;
 }
 
-.main-font {
-  font-family: var(--fs-body);
-}
-
 #cellContainer {
   display: grid;
   grid-template-columns: repeat(3, auto);
