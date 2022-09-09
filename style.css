@@ -3,7 +3,11 @@
 :root {
   --ff-body: "Hind Guntur", sans-serif;
 
-  --fw-para: 300;
+  --fs-body: 1rem;
+  --fs-subheading: 1.2rem;
+  --fs-heading: 2rem;
+
+  --fw-body: 300;
   --fw-subheading: 500;
   --fw-heading: 700;
 }
