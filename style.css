@@ -1,11 +1,13 @@
-@import url("https://fonts.googleapis.com/css2?family=Hind+Guntur:wght@300;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Hind+Guntur:wght@300;400;500;600;700&display=swap");
 
 :root {
   --ff-body: "Hind Guntur", sans-serif;
+  --ff-gamepiece: "Architects Daughter", sans-serif;
 
   --fs-body: 1rem;
   --fs-subheading: 1.2rem;
   --fs-heading: 2rem;
+  --fs-gamepiece: 3rem;
 
   --fw-body: 300;
   --fw-subheading: 500;
@@ -26,6 +28,8 @@
   border: 2px solid black;
   box-shadow: 0 0 0 2px;
   line-height: 75px;
+  font-family: var(--ff-body);
+  font-size: var(--fs-gamepiece);
 }
 
 #cellContainer {
