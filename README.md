@@ -2,7 +2,7 @@
 
 A simple game of tic tac toe where 2 players take turns.
 
-My Toolkit for this project:
+Built with:
 
 - HTML
 - CSS
